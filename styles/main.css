@@ -1,0 +1,85 @@
+
+.main {
+    display: flex;
+    margin: 50px 0;
+  }
+  
+  .main__section {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .main__section_1 {
+    padding-right: 15px;
+  }
+  
+  .main__section_2 {
+    padding-left: 15px;
+  }
+  
+  .main__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .main__img-container {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  .main__img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .main__card-button {
+    width: 100%;
+  }
+  
+  .main__card-button:hover {
+    background-color: transparent;
+  }
+  
+  .main__title {
+    font-size: 36px;
+    letter-spacing: 4px;
+    font-family: 'Spicy Rice';
+    text-align: center;
+  }
+  
+  .recipe {
+    background-color: var(--smooth-green);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px #000;
+  }
+  
+  .recipe__list {
+    padding: 15px;
+  }
+  
+  .aside__list {
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .aside__list-item {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #b4b4b4;
+  
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .additional {
+    margin-top: auto;
+  }

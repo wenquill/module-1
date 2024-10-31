@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: var(--smooth-green);
+  font-size: inherit;
+  font-family: inherit;
+  border: 2px solid var(--smooth-green);
+  border-radius: 5px;
+  padding: 10px;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --dark-green: #0a291e;
+  --light-green: #004225;
+  --smooth-green: #798a82;
+}
+
+body {
+  font-family: 'Albert Sans';
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.right-container {
+  flex: 0 0 70%;
+  padding: 10px 30px;
+}
+
+.left-container {
+  flex: 0 0 30%;
+  background-color: var(--light-green);
+  padding: 10px 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+

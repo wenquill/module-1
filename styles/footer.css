@@ -1,0 +1,22 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+  
+    margin-top: 150px;
+    border-top: 2px solid var(--dark-green);
+  }
+  
+  .footer__list {
+    padding: 15px;
+    list-style-type: none;
+  }
+  
+  .footer__list li:hover {
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+  .additional {
+    color: #fff;
+  }
